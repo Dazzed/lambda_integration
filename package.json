@@ -1,0 +1,21 @@
+{
+  "name": "lambda_deployment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.1.0",
+    "serverless": "^1.27.3",
+    "serverless-offline": "^3.25.1"
+  },
+  "dependencies": {
+    "unique-names-generator": "^1.0.13"
+  }
+}
