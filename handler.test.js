@@ -1,6 +1,6 @@
 const { handler } = require('./handler');
 const input = {
-  body: '{\n\t"username":"admin",\n\t"email":"admin@example.com"\n}',
+  body: '{\n\t"username":"admin",\n\t"email":"admin@example.com",\n\t"password":"abcd1234"\n}',
 };
 describe('handler', () => {
   test('the handler function should work', () => {

@@ -1,7 +1,7 @@
 exports.handler = (event, context, callback) => {
   try {
     const body = JSON.parse(event.body);
-    if (!body.email || !body.username) {
+    if (!body.email || !body.username || !body.password) {
       const error = "Invalid Body";
       throw new Error({ error });
     }
